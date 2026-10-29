@@ -1,0 +1,11 @@
+# Versions reported by the user's current environment on 2026-10-29.
+# NOTE: The challenge kit specifies Python 3.10-3.12. The current Python 3.14.7
+# environment is outside that official range. Validate this file in Python 3.12
+# before using it as the final submission requirements file.
+qiskit==2.5.2
+qiskit-aer==0.17.2
+numpy==2.5.4
+scipy==1.18.1
+networkx==3.7
+matplotlib==3.11.2
+jupyter

@@ -1,0 +1,26 @@
+
+{
+  "name": "Processor D",
+  "team": "NexGen Minds",
+  "problem_statement": "PS-O1",
+  "num_qubits": 6,
+  "edges": [
+    [0, 2],
+    [0, 3],
+    [0, 4],
+    [1, 4],
+    [1, 5],
+    [2, 3],
+    [2, 4],
+    [3, 4],
+    [3, 5]
+  ],
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "noise": {
+    "model": "official",
+    "p1": 0.001,
+    "p2": 0.005,
+    "p_readout": 0.01
+  },
+  "design_rationale": "This six-qubit topology directly connects the nine logical edge pairs in the PS-O1 weighted graph. The design aims to reduce routing overhead; circuit metrics and Bell-state experiments will be used to evaluate its performance."
+}

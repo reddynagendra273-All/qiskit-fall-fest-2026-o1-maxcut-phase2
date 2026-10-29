@@ -1,0 +1,66 @@
+{
+  "problem_id": "PS-O1",
+  "name": "Max-Cut on Weighted Graphs",
+  "vertices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "weighted_edges": [
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      4,
+      4
+    ],
+    [
+      1,
+      4,
+      3
+    ],
+    [
+      1,
+      5,
+      3
+    ],
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      2,
+      4,
+      1
+    ],
+    [
+      3,
+      4,
+      4
+    ],
+    [
+      3,
+      5,
+      2
+    ]
+  ],
+  "total_edge_weight": 27,
+  "known_exact_classical_optimum": 22,
+  "optimal_bitstrings_x0_to_x5": [
+    "001011",
+    "110100"
+  ],
+  "note": "PS-O1 instance values transcribed from the project context. Verify against the official instances.json before submission."
+}
